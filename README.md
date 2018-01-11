@@ -25,10 +25,6 @@ externals: {
     
       this.area = `${res.province} ${res.city} ${res.district}`
       
-      this.form.cityName = res.city
-      
-      this.form.cityArea = res.district
-      
     })
     
   }
