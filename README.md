@@ -17,14 +17,10 @@ externals: {
   
   Vue.use(baiduLocation)
   
-  
    // 百度定位需在mounted后使用
+   
   mounted () {
-  
     this.$baiduLocation(res => {
-    
       this.area = `${res.province} ${res.city} ${res.district}`
-      
     })
-    
   }
